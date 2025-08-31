@@ -1,0 +1,10 @@
+app = "telegram-meme-bot"
+primary_region = "lhr"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[mounts]
+  # uncomment if using volume
+  # source = "memes_data"
+  # destination = "/app/memes"
